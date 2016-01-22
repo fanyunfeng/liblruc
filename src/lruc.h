@@ -4,6 +4,10 @@
 #define _g_LRUC_DEBUG__ 0
 #define _g_LRUC_INFO__ 0
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 //
 struct lruc_node_st;
 typedef struct lruc_node_st *lruc_node_t;
@@ -96,4 +100,7 @@ int lruc_del_node(lruc_t lru, lruc_node_t node);
 
 lruc_info_t lruc_info(lruc_t lru);
 
+#ifdef __cplusplus
+}
+#endif
 #endif //__g_LRUC_H__

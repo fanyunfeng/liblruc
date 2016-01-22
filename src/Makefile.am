@@ -3,7 +3,7 @@ ACLOCAL_AMFLAGS='-I ../m4'
 lib_LTLIBRARIES = liblruc.la
 
 
-include_HEADERS = lruc.h lruc_ss.h lruc++.h
+include_HEADERS = lruc.h lruc_ss.h lrucxx.h
 
 
 nodist_include_HEADERS = lruc_imp.h
